@@ -7,10 +7,9 @@ class ExampleServer extends HttpServer {
 
   override def configureHttp(router: HttpRouter): Unit = {
 
-    println(router)
-
     router
       .add[ExampleController]
+
   }
 
 }

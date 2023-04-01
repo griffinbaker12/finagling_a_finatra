@@ -1,4 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/griffinbaker/tutorials/rpc/src/main/scala/example/ExampleController.scala:18:20: identifier expected but 'do' found.[0m
-[0m[[0m[31merror[0m] [0m[0m    exampleService.do(request)[0m
-[0m[[0m[31merror[0m] [0m[0m                   ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/griffinbaker/tutorials/rpc/src/main/scala/example/BasicServer.scala:8:3: illegal start of definition[0m
+[0m[[0m[31merror[0m] [0m[0m  # this methods overrides this method in the HttpServer class; this is the method called by HTTPServer do configure it[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/griffinbaker/tutorials/rpc/src/main/scala/example/BasicServer.scala:8:105: ';' expected but 'do' found.[0m
+[0m[[0m[31merror[0m] [0m[0m  # this methods overrides this method in the HttpServer class; this is the method called by HTTPServer do configure it[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
