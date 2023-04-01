@@ -1,0 +1,21 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/griffinbaker/tutorials/rpc/target/scala-2.12/rpc_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/griffinbaker/tutorials/rpc/target/scala-2.12/classes/example[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example/Hello$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/griffinbaker/tutorials/rpc/target/scala-2.12/classes/example/Hello$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example/Hello.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/griffinbaker/tutorials/rpc/target/scala-2.12/classes/example/Hello.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ExampleServerMain$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/griffinbaker/tutorials/rpc/target/scala-2.12/classes/ExampleServerMain$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ExampleController$$typecreator1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/griffinbaker/tutorials/rpc/target/scala-2.12/classes/ExampleController$$typecreator1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ExampleServer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/griffinbaker/tutorials/rpc/target/scala-2.12/classes/ExampleServer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ExampleServerMain.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/griffinbaker/tutorials/rpc/target/scala-2.12/classes/ExampleServerMain.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ExampleController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/griffinbaker/tutorials/rpc/target/scala-2.12/classes/ExampleController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ExampleController$$typecreator2$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/griffinbaker/tutorials/rpc/target/scala-2.12/classes/ExampleController$$typecreator2$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

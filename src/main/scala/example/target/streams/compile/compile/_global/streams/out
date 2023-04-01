@@ -1,0 +1,40 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/griffinbaker/tutorials/rpc/src/main/scala/example/BasicServer.scala:1:12: object twitter is not a member of package com[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.twitter.finagle.{Http, Service}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/griffinbaker/tutorials/rpc/src/main/scala/example/BasicServer.scala:2:12: object twitter is not a member of package com[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.twitter.finagle.http.{Request, Response, Status}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/griffinbaker/tutorials/rpc/src/main/scala/example/BasicServer.scala:3:12: object twitter is not a member of package com[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.twitter.server.TwitterServer[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/griffinbaker/tutorials/rpc/src/main/scala/example/BasicServer.scala:4:12: object twitter is not a member of package com[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.twitter.util.{Await, Future}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/griffinbaker/tutorials/rpc/src/main/scala/example/BasicServer.scala:6:28: not found: type TwitterServer[0m
+[0m[[0m[31merror[0m] [0m[0mobject BasicServer extends TwitterServer {[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/griffinbaker/tutorials/rpc/src/main/scala/example/BasicServer.scala:7:21: not found: type Service[0m
+[0m[[0m[31merror[0m] [0m[0m  val service = new Service[Request, Response] {[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/griffinbaker/tutorials/rpc/src/main/scala/example/BasicServer.scala:8:24: not found: type Request[0m
+[0m[[0m[31merror[0m] [0m[0m    def apply(request: Request) = {[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/griffinbaker/tutorials/rpc/src/main/scala/example/BasicServer.scala:9:22: not found: value Response[0m
+[0m[[0m[31merror[0m] [0m[0m      val response = Response(request.version, Status.Ok)[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/griffinbaker/tutorials/rpc/src/main/scala/example/BasicServer.scala:9:48: not found: value Status[0m
+[0m[[0m[31merror[0m] [0m[0m      val response = Response(request.version, Status.Ok)[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/griffinbaker/tutorials/rpc/src/main/scala/example/BasicServer.scala:11:7: not found: value Future[0m
+[0m[[0m[31merror[0m] [0m[0m      Future.value(response)[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/griffinbaker/tutorials/rpc/src/main/scala/example/BasicServer.scala:16:18: not found: value Http[0m
+[0m[[0m[31merror[0m] [0m[0m    val server = Http.serve(":8888", service)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/griffinbaker/tutorials/rpc/src/main/scala/example/BasicServer.scala:17:5: not found: value onExit[0m
+[0m[[0m[31merror[0m] [0m[0m    onExit {[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/griffinbaker/tutorials/rpc/src/main/scala/example/BasicServer.scala:20:5: not found: value Await[0m
+[0m[[0m[31merror[0m] [0m[0m    Await.ready(server)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m13 errors found[0m
