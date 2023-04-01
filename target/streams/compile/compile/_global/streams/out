@@ -1,7 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/griffinbaker/tutorials/rpc/src/main/scala/example/BasicServer.scala:8:3: illegal start of definition[0m
-[0m[[0m[31merror[0m] [0m[0m  # this methods overrides this method in the HttpServer class; this is the method called by HTTPServer do configure it[0m
-[0m[[0m[31merror[0m] [0m[0m  ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/griffinbaker/tutorials/rpc/src/main/scala/example/BasicServer.scala:8:105: ';' expected but 'do' found.[0m
-[0m[[0m[31merror[0m] [0m[0m  # this methods overrides this method in the HttpServer class; this is the method called by HTTPServer do configure it[0m
-[0m[[0m[31merror[0m] [0m[0m                                                                                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/griffinbaker/tutorials/rpc/src/main/scala/example/BasicServer.scala:2:8: object HttpRouter is not a member of package com.twitter.finatra.http[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.twitter.finatra.http.HttpRouter[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/griffinbaker/tutorials/rpc/src/main/scala/example/BasicServer.scala:5:38: not found: type HttpRouter[0m
+[0m[[0m[31merror[0m] [0m[0m  override def configureHttp(router: HttpRouter): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
 [0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
